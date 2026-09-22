@@ -108,7 +108,7 @@ lazy val baseSettings: Project => Project = _.settings(
     "io.chrisdavenport" %%% "cats-scalacheck" % "0.3.2" % Test,
     "org.scalameta" %%% "munit" % "0.7.29" % Test,
     "org.scalameta" %%% "munit-scalacheck" % "0.7.29" % Test,
-    "org.typelevel" %%% "munit-cats-effect-3" % "1.0.7" % Test,
+    "org.typelevel" %%% "munit-cats-effect" % "2.2.1" % Test,
     "org.typelevel" %%% "scalacheck-effect" % "1.0.4" % Test,
     "org.typelevel" %%% "scalacheck-effect-munit" % "1.0.4" % Test,
   ),
