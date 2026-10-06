@@ -49,7 +49,7 @@ lazy val notifications = project
   .settings(
     libraryDependencies ++= Seq(
       "com.comcast" %%% "ip4s-core" % "3.5.0",
-      "io.circe" %%% "circe-parser" % "0.14.7",
+      "io.circe" %%% "circe-parser" % "0.14.17",
       "is.cir" %%% "ciris" % "3.5.0",
       "org.http4s" %%% "http4s-circe" % "0.23.26",
       "org.http4s" %%% "http4s-dsl" % "0.23.26",
@@ -67,7 +67,7 @@ lazy val operations = project
     libraryDependencies ++= Seq(
       "com.comcast" %%% "ip4s-core" % "3.5.0",
       "com.softwaremill.sttp.client3" %%% "cats" % "3.9.5" % Test,
-      "io.circe" %%% "circe-parser" % "0.14.7" % Test,
+      "io.circe" %%% "circe-parser" % "0.14.17" % Test,
       "is.cir" %%% "ciris" % "3.5.0",
       "org.gnieh" %%% "fs2-data-xml" % "1.11.0",
       "org.http4s" %%% "http4s-circe" % "0.23.26",
